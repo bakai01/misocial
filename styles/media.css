@@ -1,0 +1,52 @@
+@media (max-width: 1199px) {
+	html {
+		font-size: 8px;
+	}
+}
+
+@media (max-width: 991px) {
+	html {
+		font-size: 7px;
+	}
+
+	.visible-lg {
+		display: none;
+	}
+
+	.m-menu-link {
+		display: block;
+	}
+
+	.get_started_style {
+		margin: 0;
+	}
+
+	.card {
+		flex-direction: column;
+	}
+
+	.card_plan {
+		margin: 2rem auto;
+	}
+
+	.footer_menu {
+		display: none;
+	}
+ 
+	.footer_nav {
+		justify-content: center;
+	}
+
+	.post_footer {
+		flex-direction: column;
+		padding-bottom: 2rem;
+	}
+
+	.social {
+		padding-top: 2rem;
+	}
+
+	.social a{
+		font-size: 3rem;
+	}
+}
